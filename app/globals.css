@@ -85,6 +85,13 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
+.primary-text-gradient-hover {
+  background: linear-gradient(-129deg, #6d28d9 0%, #ae7cfc 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .custom-scrollbar::-webkit-scrollbar {
   width: 3px;
   height: 3px;
