@@ -80,7 +80,7 @@ const MobileNav = () => {
               <div className="flex w-full flex-col gap-3">
                 <SheetClose asChild>
                   <Link href="/sign-in">
-                    <Button className="w-full">
+                    <Button className="w-full" variant="outline">
                       <span>Log In</span>
                     </Button>
                   </Link>
