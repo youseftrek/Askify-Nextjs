@@ -79,10 +79,6 @@
     @apply text-[10px] font-normal leading-[13px];
   }
 
-  .placeholder {
-    @apply placeholder:text-light-400 dark:placeholder:text-light-500;
-  }
-
   .invert-colors {
     @apply invert dark:invert-0;
   }
@@ -100,7 +96,7 @@
   }
 
   .primary-gradient-hover {
-    background: linear-gradient(-129deg, #6d28d9 0%, #ae7cfc 100%);
+    background: linear-gradient(-129deg, #6c28d97e 0%, #ad7cfc82 100%);
   }
 
   .dark-gradient {
