@@ -4,6 +4,10 @@
 
 @import url("../styles/theme.css");
 
+body {
+  font-family: "Inter", sans-serif;
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -76,6 +80,13 @@
 
 .primary-text-gradient {
   background: linear-gradient(129deg, #6d28d9 0%, #ae7cfc 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.primary-text-gradient-hover {
+  background: linear-gradient(-129deg, #6d28d9 0%, #ae7cfc 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
