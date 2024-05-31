@@ -11,7 +11,7 @@ import { usePathname } from "next/navigation";
 const LeftSidebarContent = () => {
   const pathName = usePathname();
   return (
-    <section className="flex max-w-[266px] flex-col justify-center gap-5 border-r px-6">
+    <section className="flex w-fit max-w-[266px] flex-col justify-center gap-5 border-r px-6">
       {sidebarLinks.map((item) => {
         const isActive =
           (pathName.includes(item.route) && item.route.length > 1) ||
